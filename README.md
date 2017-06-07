@@ -19,7 +19,7 @@ npm install COMING SOON
 First import the library and configure JWT parameters. The [googleapis](https://github.com/google/google-api-nodejs-client/blob/master/samples/jwt.js) documentation explains how to configure JWT in details.
 
 ```javascript
-var sharedcontacts = require('google-sharedcontacts-api')({
+var sharedcontacts = require('google-domain-shared-contacts-api')({
 	email : 'Your Service Account Email, ie xxx@iam.gserviceaccount.com',
 	keyFile : 'Path to your PEM Key File, ie ./key.pem',
 	key : null,
