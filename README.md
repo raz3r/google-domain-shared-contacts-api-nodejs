@@ -51,4 +51,4 @@ sharedcontacts.list({
 
 This library requires a DWD Service Account in order to interact with Shared Contacts API, if you're not familiar with the argument please restrain from using this library. The author does not take any responsibility for any harm done to the data in your Google Apps domain.
 
-This library is not sponsored, supported, or affiliated with Google.
+**This library is not sponsored, supported, or affiliated with Google.**
