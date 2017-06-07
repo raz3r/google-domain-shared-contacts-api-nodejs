@@ -25,7 +25,7 @@ var sharedcontacts = require('google-domain-shared-contacts-api')({
 	key : null,
 	scopes : [ 'https://www.google.com/m8/feeds' ],
 	delegate : 'The email address of an user in the domain with Admin rights, ie administrator@example.com',
-	domain : 'Your domain, ie example.comm'
+	domain : 'Your domain, ie example.com'
 });
 ```
 
