@@ -34,7 +34,7 @@ The library exposes four methods which allow to list, create, delete and update 
 For instance to list all Shared Contacts that contain the word 'Test' and output the results in JSON format you can do the following.
 
 ```javascript
-sharedcontacts.getSharedContacts({
+sharedcontacts.list({
     alt : 'json',
     q : 'Test'
   },function(error, response, body) {
@@ -49,6 +49,6 @@ sharedcontacts.getSharedContacts({
 
 ## Disclaimer
 
-This library uses a DWD Service Account in order to interact with Shared Contacts API, if you're not familiar with the argument please restrain from using this library. The author does not take any responsibility for any harm done to the data in your Google Apps domain.
+This library requires a DWD Service Account in order to interact with Shared Contacts API, if you're not familiar with the argument please restrain from using this library. The author does not take any responsibility for any harm done to the data in your Google Apps domain.
 
 This library is not sponsored, supported, or affiliated with Google.
