@@ -1,6 +1,6 @@
 # Google Domain Shared Contacts API
 
-An unofficial **work in progress** library that allows to list, create, delete and update Google Domain Shared Contacts. The library uses JWT and Service Accounts for authentication. Follow the [official guide](https://developers.google.com/+/domains/authentication/delegation#create_a_console_project_with_service_account_credentials) and create a Service Account with Domain Wide Delegation (DWD) if you haven't done so yet.
+An unofficial **work in progress** library that allows to list, create, delete and update Google Domain Shared Contacts. The library uses JWT and Service Accounts for authentication. Follow the [official guide](https://developers.google.com/admin-sdk/directory/v1/guides/delegation) and create a Service Account with Domain Wide Delegation (DWD) if you haven't done so yet.
 
 ## Install
 
